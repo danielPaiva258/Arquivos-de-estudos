@@ -1,0 +1,187 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div-conteudo{
+    text-align: center;
+    width: 1024px;
+    margin: auto;
+}
+
+.header-principal{
+    background-image: url(../imagens/topo.jpg);
+    height: 490px;
+    
+   
+    border: 1px solid rgba(0, 0, 0, 0);
+
+}
+
+.nav-menu{
+    display: block;
+    background-color: rgb(8, 26, 36);
+    height: 60px;
+    
+}
+
+.nav-menu img{
+    display: inline;
+    float: left;
+    margin: 10px 0px 0px 150px; 
+
+}
+.nav-menu ul {
+    text-align: right;
+    float: right;
+    margin:0px 40px 0px 0px;
+}
+.nav-menu ul li{
+    list-style: none;
+    display: inline-block;
+    letter-spacing: 8px;
+    margin: 20px 20px 0px 0px;  
+}
+
+.nav-menu a {
+    color: rgb(32, 83, 87);
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;  
+    transition: color 0.3s linear;
+}
+.nav-menu li a:hover{
+    color: white;     
+}
+
+main{
+    margin: auto;
+}
+
+
+.section-portifolio{
+    margin-top: 100px;
+}
+.section-portifolio h1{
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+
+.section-portifolio p {
+    line-height: 2;
+    font-weight: 1;
+    font-size: 20px;
+    
+    color: rgb(32, 83, 87);
+    text-anchor: middle;
+    padding: 0px 100px 0px 100px;
+}
+
+
+.section-about{
+    clear: left;
+}
+
+
+
+.section-cards{
+    margin: auto;
+    width: 80%;
+    overflow: auto;
+}
+
+.card-div{
+    width: 32%;
+    float: left;
+    margin: 0px;    
+}
+
+.card-div-1 , .card-div-2{
+    margin-right: 2%;
+}
+
+.card-div img{
+    display: block;
+    align-content: center;
+    width: 100%;
+}
+
+
+
+.section-cards h4{
+    color: rgb(84, 84, 86);
+    font-size: 18px; 
+    text-transform: uppercase;
+    margin: 10px 0px 0px 0px;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px rgb(84, 84, 86);
+    font-weight: 300;
+}
+
+
+.section-cards p{
+    color: rgb(155, 154, 168)
+}
+
+.section-about{
+    width: 100%;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-position: right bottom;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    color: white;
+    width: 1100px;
+    border:1px solid rgba(0, 0, 0, 0);
+}
+
+.section-about h1{
+    margin: 100px 100px 50px 100px;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 300;
+}
+
+.section-about p{
+    font-size: 20px;
+    font-weight: 2000;
+    text-align: left;
+    margin: 0px 0px 0px 100px;
+    width: 50%;
+}
+
+.section-contact{
+    color: rgb(0, 64  , 82);
+    font-size: 20px;
+    text-transform: uppercase;
+    
+    
+}
+
+.section-contact-h1-1{
+    margin: 40px 0px 0px 0px;
+    font-weight: 800;
+}
+
+.section-contact-h1-2{
+    margin: 0px 0px 0px 0px;
+    font-weight: 800;
+}
+
+.section-maps{
+    margin: 70px 0px 50px 0px;
+}
+
+footer{
+    background-color: rgb(0 , 16   , 24);
+    margin: auto;
+    height: 70px;
+    line-height: 70px;
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: rgb(70, 134, 120);
+}
